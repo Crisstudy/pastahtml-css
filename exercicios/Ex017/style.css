@@ -1,0 +1,21 @@
+@charset "UTF-8"; 
+
+
+body {
+    font: normal 16px Arial, Verdana, serif;
+    text-align: left;
+    background-color: black;
+    }
+h1 {
+    text-align: center;
+    color: blueviolet;
+    }
+h2 {
+    text-align: left;
+    color: blueviolet;
+    }
+p {
+    text-align: justify;
+    text-indent: 30px;
+    color: aqua;
+    }
