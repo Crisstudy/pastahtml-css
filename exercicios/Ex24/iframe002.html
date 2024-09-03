@@ -14,13 +14,30 @@
             display: block;
             margin: auto;
         }
+        .erro {
+            color: #ff0000; /* Texto em vermelho */
+            font-weight: bold; /* Texto em negrito */
+            background-color: #ffe6e6; /* Fundo levemente rosado */
+            border: 1px solid #ff0000; /* Borda vermelha */
+            padding: 10px; /* Espaçamento interno */
+            border-radius: 5px; /* Bordas arredondadas */
+            text-align: center; /* Centralizar o texto */
+            font-family: Arial, sans-serif; /* Fonte personalizada */
+        } 
+        }
     </style>
 </head>
 <body>
     <h1>Teste de iframe</h1>
     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos modi nostrum asperiores dolor nihil atque ab esse, inventore beatae, facere rem? Distinctio explicabo eum illo quod vero officia, qui omnis? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam, nisi nemo quo quis minima in autem, nam esse voluptas nesciunt, maxime dolor dolorum amet id exercitationem ipsum adipisci quaerat sunt.</p>
 
-    <iframe src="pagina001.html" frameborder="0" height="500" width="500"></iframe>
+    <iframe src="paginas-extras/pagina001.html" frameborder="0" height="500" width="500">
+        <P class="erro">Infelismente seu navegador não é compatível com isso</P>
+    </iframe>
+
+    <noscript>
+        <p class="erro">Infelizmente seu navegador não é compatível com isso</p>
+    </noscript>
 
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, neque at placeat incidunt praesentium eaque optio voluptates doloremque aspernatur. Iste sit amet a sunt neque ab facilis natus distinctio obcaecati! Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore quam at adipisci consequuntur ipsa culpa exercitationem enim, eius, nulla maxime minus voluptate autem tenetur nostrum quas asperiores unde cumque obcaecati.</p>
 </body>
