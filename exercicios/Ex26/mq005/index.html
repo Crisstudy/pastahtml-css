@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>media-query</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+   <header>
+    <h1>Meu site</h1>
+    <span id="burguer" class="material-icons" onclick="clickMenu()">menu</span>
+    <menu id="itens">
+        <ul>
+            <li><a href="#">Opção 1</a></li>
+            <li><a href="#">Opção 2</a></li>
+            <li><a href="#">Opção 3</a></li>
+            <li><a href="#">Opção 4</a></li>
+            <li><a href="#">Opção 5</a></li>
+        </ul>
+    </menu>
+   </header> 
+   <main>
+        <article>
+            <h2>Testando media Queries</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, non tempore autem officia dicta dolor eveniet nulla enim! Deserunt sit voluptatem nostrum tenetur eveniet natus, dignissimos delectus accusamus optio. Ipsam. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis provident, esse voluptatibus consectetur quaerat atque corrupti enim minus nihil. Neque, laudantium magnam. Error quis aliquam consectetur, obcaecati molestias minus sed.</p>
+
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam quisquam ut ullam! Unde, numquam, nemo perspiciatis iure quasi quaerat id eos tempora nisi aut amet consectetur nesciunt reiciendis beatae assumenda. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis odio labore minima! Nobis fugit cum quibusdam amet aliquid ad, error iusto suscipit ratione deleniti animi, a cumque, veniam culpa qui?</p>
+
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi adipisci quaerat libero. Nesciunt mollitia, temporibus reprehenderit at, nobis ad praesentium reiciendis necessitatibus officiis autem doloremque harum tempore velit! Excepturi, itaque. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime laborum est autem et, provident nobis, natus magni qui optio eaque ipsum consectetur eum nesciunt quidem eligendi nam, id expedita eius.</p>
+        </article>
+   </main>
+   <script>
+    function clickMenu() {
+        if (itens.style.display == 'block') {
+            itens.style.display = 'none'
+        } else {
+            itens.style.display = 'block'
+        }
+    }
+   </script>
+</body>
+</html>
